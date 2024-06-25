@@ -58,7 +58,7 @@ fun TextInput(){
         onValueChange = {
            state.value = it
         },
-        label = { Text(text = "Enter Message")}
+        label = { Text(text = "Enter Name")}
         )
     }
 }
